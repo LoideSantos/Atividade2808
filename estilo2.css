@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+   height: 100%; 
+}
+
+.caixa1 img{
+height: 220px;
+width: 220px;
+
+}
+.caixa1{
+/*PROPRIENDADES DE ALINHAMENTO*/
+display: flex ; /* reajusta os containers(e que seja um bloco) para que elas caibam */
+/*row (um do lado do outor em linha) | row-reverse(inverte a ordem) | colum(um em baixo do outro em coluna) | colum=reverse(inverte a ordem) */
+flex-direction: row;
+/* nowrap | wrap | wrap-reverse*/
+flex-wrap: wrap ;/* quando for para o modo responsivo ele nao achata a imagem*/
+/*flex-start | flex-end | center | space-between | space-around | space-evenly */
+justify-content:  space-evenly; /*propriedade que alinha*/
+}
+
+.caixa2 img{
+    height: 200px;
+    width: 220px;
+}
+.caixa2{
+display: flex ;
+flex-direction: row;
+flex-wrap: wrap ;
+justify-content:  space-evenly;
+}
+    
+.caixa3 img{
+    height: 200px;
+    width: 220px;
+}
+
+.caixa3{
+display: flex ; 
+flex-direction: row;
+flex-wrap: wrap ;
+justify-content: flex-start ;
+
+}
+
+.caixa4 img{
+    height: 200px;
+    width: 220px;
+}
+
+.caixa4{
+display: flex ; 
+flex-direction: row;
+flex-wrap: wrap ;
+justify-content: flex-end ;
+
+}
